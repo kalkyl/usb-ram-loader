@@ -1,0 +1,14 @@
+[package]
+name = "elfloader"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+color-eyre = "0.5.11"
+common = { path = "../common" }
+object = "0.25.3"
+serialport = "4.0.1"
+
+[dependencies.postcard]
+version = "0.7.0"
+features = ["use-std"]
